@@ -69,7 +69,7 @@ gg <- gg + labs(x=NULL, y=NULL, title="The social media age gap",
                 subtitle="Adult internet users or reported smartphone owners who\nuse social networking sites",
                 caption="@mcrmetrics")
 gg <- gg + theme_bw(base_family="Bliss Pro")
-gg <- gg + theme(panel.grid.major=element_blank())
+gg <- gg + theme(panel.grid.major=element_blank()) 
 gg <- gg + theme(panel.grid.minor=element_blank())
 gg <- gg + theme(panel.border=element_blank())
 gg <- gg + theme(axis.ticks=element_blank())
