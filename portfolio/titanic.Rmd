@@ -1,13 +1,11 @@
 ---
 title: "Can I see a doctor please?"
 date: 2018-02-04T21:25:52Z
-draft: true
+draft: false
 ---
 
 
 ```{r, include = FALSE}
-
-
 # TF 09/01/17
 # Mapping the World with ggplot and open source natural earth data
 
@@ -140,7 +138,7 @@ map <- leaflet(data_for_mapping,
                   'border-style' = 'solid',
                   'border-width' = '4px')),
               highlightOptions = highlightOptions(weight = 3, bringToFront = TRUE)) %>%
-  setMaxBounds(lat1 = 60, lng1 = 8.82, lat2 = 50, lng2 = -16) %>%
+  setMaxBounds(lat1 = 59.2, lng1 = 10, lat2 = 49.2, lng2 = -10) %>%
   htmlwidgets::onRender(
     "function(el, t) {
     var myMap = this;
@@ -152,11 +150,17 @@ map <- leaflet(data_for_mapping,
 
 ```
 
-The medical profession is changing. 
-
-```{r, echo = FALSE, warning = FALSE, fig.height = 7.5, fig.width=8}
+<div style= "float:right;position: relative; top: -10px;"> 
+```{r, echo = FALSE, warning = FALSE, fig.height = 7.5, fig.width=5, fig.align="right"}
 map
 ```
+</div>
+
+**Medical workforce characteristics**
+
+The medical profession is changing. In 2017, latest data from the General Medical Council showed that the number of licensed doctors in Scotland was greater than those of men for the first time. 
+
+Their annual report the state of medical education and practice 2017 showed that 51.01% of all licensed doctors in Scotland were female, relative to just 44.13% in Wales. 
 
 \n
 
