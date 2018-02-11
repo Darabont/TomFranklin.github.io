@@ -112,11 +112,20 @@
     </item>
     
     <item>
-      <title>Titanic</title>
+      <title>Can I see a doctor please?</title>
       <link>/portfolio/titanic/</link>
       <pubDate>Sun, 04 Feb 2018 21:25:52 +0000</pubDate>
       
       <guid>/portfolio/titanic/</guid>
+      <description>A review of the medical profession by gender</description>
+    </item>
+    
+     <item>
+      <title>May I see a doctor please?</title>
+      <link>/portfolio/2018-02-11-may-i-see-a-doctor-please/</link>
+      <pubDate>Sun, 04 Feb 2018 21:25:52 +0000</pubDate>
+      
+      <guid>/portfolio/2018-02-11-may-i-see-a-doctor-please/</guid>
       <description>This is the website I will be using</description>
     </item>
     
